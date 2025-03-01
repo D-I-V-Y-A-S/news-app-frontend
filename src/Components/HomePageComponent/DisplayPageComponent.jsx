@@ -30,8 +30,9 @@ const DisplayPageComponent = ({ news }) => {
 
                     <h3 style={{ color: "gray" }}>{news.newsID}</h3>
 
-                    <img src={news.newsImage} alt="news-post" height="200px" width="310px" />
-                    
+                    <img src={`https://raw.githubusercontent.com/D-I-V-Y-A-S/news-app-backend/main/images/${news.newsImage}`} alt="news-post" height="200px" width="310px" />
+                
+
                     <h2 className='status'> {news.newsTitle}</h2>
                     <p className='status'> {news.newsArticle}</p>
                     <span style={{ color: "deeppink" }}>{news.newsCategory}</span>
