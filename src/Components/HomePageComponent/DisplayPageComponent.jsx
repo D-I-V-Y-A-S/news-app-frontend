@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './HomePageComponent.css'
 
 const DisplayPageComponent = ({ news }) => {
-
+console.log(${news.newsImage})
     //likes and comments
     const [Like, setLike] = useState(news.likes)
     const [Comment, setComment] = useState(news.comments)
